@@ -1,0 +1,88 @@
+.back{
+    background-color: #efeef4;
+}
+.time{
+    height: 0.4rem;
+
+    background-color: #2e2d33;
+    color: #ffffff;
+}
+.title{
+    height: 0.88rem;
+    line-height: 0.881rem;
+    text-align: center;
+    font-size: 0.4rem;
+    color: #ffffff;
+    background-color: #3a393f;
+}
+.lists_box li{
+    font-size: 0.34rem;
+    color: #000000;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background-color: #ffffff;
+    border-bottom: 0.01rem solid #d7d7d9;
+}
+.list_mt30{
+    border-top: 0.01rem solid #d7d7d9;
+    margin-top: 0.3rem;
+}
+.list_mt42{
+    border-top: 0.01rem solid #d7d7d9;
+    margin-top: 0.42rem;
+}
+.list_mb84{
+    margin-bottom: 0.82rem;
+}
+.footer{
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 0.2rem;
+    color: #a4a4a6;
+    background-color: #ffffff;
+}
+.footer span{
+    padding-top: 0.04rem;
+}
+.wx_icon{
+    margin-left: 0.32rem;
+    margin-right: 0.3rem;
+    width: 0.44rem;
+    height: 0.44rem;
+    display: inline-block;
+    background: url(../img/wx.png) no-repeat;
+    background-size:400%;
+}
+
+.lists_box i{
+    vertical-align: middle;
+}
+
+.sao{
+    background-position: -0.4rem 0;
+}
+.yao{
+    background-position: -0.9rem 0;
+}
+.fujin{
+    background-position: -1.36rem 0;
+}
+.shopping{
+    background-position: -0.4rem -0.48rem;
+}
+.game{
+    background-position: -0.9rem -0.48rem;
+}
+.software{
+    background-position: 0 -0.5rem;
+}
+.lists_box .fr{
+    float: right;
+    margin-top: 0.28rem;
+    margin-right: 0.3rem;
+}
+.footer span:hover{
+    color: green;
+}

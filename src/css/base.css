@@ -1,0 +1,188 @@
+/*样式初始化*/
+
+body,
+div,
+h1,
+ul,
+li,
+p,
+a,
+img,
+header,
+section,
+input,
+h2,
+h3,
+h4,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input,
+button {
+    border: 0;
+    outline: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both
+}
+
+html {
+    font-size: 50px
+}
+/*媒体查询  css3*/
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.67px
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px
+    }
+}
+
+@media screeremn and (min-width: 480px) {
+    html {
+        font-size: 64px
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 85.33px
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 100px
+    }
+}
+body {
+    font: 14px/1.5 "微软雅黑";
+    
+}
+
+.red{
+    background: red;
+}
+.f20{
+    font-size: 0.2rem;
+}
+.f24{
+    font-size: 0.24rem;
+}
+.f16{
+    font-size: 0.16rem;
+}
+.color6{
+    color: #666666;
+}
+bg{
+    background-color: #f4f4f4;
+}
+
+.width100{
+    width: 100%;
+}
+/*app下载顶部条*/
+.app_down{
+    display: flex;
+    align-items: center;
+    height: 0.9rem;
+    background: #333333;
+    color: #fff;
+}
+.app_close{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.icon{   
+    background: url(../img/picture.png) 0 -1.92rem no-repeat;
+    background-size: 1.72rem 3.98rem;
+}
+.app_logo_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 0.73rem;
+    background-position: 0 -2.52rem;
+    padding-left: 0.85rem;
+}
+.app_btn{
+    margin: auto;
+    font-size: 0.24rem;
+    background-color: red;
+    color: #fff;
+    width: 1.38rem;
+    height: 0.53rem;
+    border-radius: 0.04rem;
+}
+/*轮播图最大高*/
+.swiper-container img{
+    max-height: 417px;
+}
+
+/*间隔条*/
+.empty{
+    content: ' ';
+    height: 0.2rem;
+    background-color: #f4f4f4;
+}
+/* 内容显示 */
+.content{
+    max-width: 7.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}

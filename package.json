@@ -1,0 +1,10 @@
+{
+  "name": "",
+  "version": "",
+  "description": "- mkdir  目录名\r - touch  文件名\r - rm - rf  删除文件夹\r - rm 删除文件名",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
